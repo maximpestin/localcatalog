@@ -1,0 +1,26 @@
+.brends {
+    border: 0px dotted black;
+    overflow-x: auto;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.brends h3 {
+    color: rgba(255, 135, 32, 0.73);
+    text-shadow: 1px 1px 0px black;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.brends ul {
+    list-style-image: url("images/marker.png");
+    list-style-position: outside;
+}
+
+.brends a {
+    color: rgba(17, 141, 70, 0.72);
+}
+
+.brends a:visited {
+    color: rgba(45, 73, 165, 0.72);
+}

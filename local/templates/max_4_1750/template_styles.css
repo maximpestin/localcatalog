@@ -1,0 +1,129 @@
+body {
+    background-color: rgba(13, 0, 128, 0.09);
+}
+
+#header {
+    border: 0px solid black;
+    text-align: center;
+    margin: 1px;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    background: url("/../../../header_phone.png");
+    font-size: 3em;
+    color: red;
+    text-shadow: 2px 2px 0px blue;
+}
+
+#nav {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px;
+    border-radius: 1px;
+    margin: 1px;
+    background-color: rgba(177, 0, 0, 0.75);
+    border-bottom: 3px solid rgba(128, 168, 220, 0.47);
+    border-top: 3px solid rgba(128, 168, 220, 0.47);
+    z-index: 100;
+}
+
+#nav ul {
+    padding: 0px;
+    margin: 1px;
+}
+
+#nav ul.main-menu{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+#nav .main-menu li {
+    display: inline;
+}
+#nav ul.main-menu a {
+    display: inline-block;
+    width: 5em;
+    padding:2px;
+    background-color: #f4f4f4;
+    border: 1px solid rgba(80, 125, 211, 0.48);
+    font-weight: 900;
+    text-decoration: none;
+    color: #3b95c7;
+    text-align: center;
+}
+#nav ul.main-menu a:hover{
+    background-color: rgb(63, 8, 90);
+    color: #f4f4f4;
+}
+
+#left_side {
+    float: left;
+    width: 15%;
+    padding: 3px;
+    border: 0px solid black;
+    border-radius: 3px;
+    margin-right: 1px;
+    margin-top: 1px;
+   /* background-color: rgba(62, 64, 109, 0.24);
+    border-right: 5px solid rgba(0, 0, 255, 0.45);
+    border-bottom: 1px solid #8585f7;*/
+    margin-bottom: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.63);
+    border-left: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+#left_side h3 {
+    color: rgba(255, 102, 0, 0.84);
+    text-shadow: 1px 1px 0px black;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+#left_side div {
+    margin-left: 5px;
+
+}
+
+#right_side {
+    float: right;
+    margin-left: 1px;
+    border: 0px solid black;
+    border-radius: 3px;
+    width: 15%;
+    padding: 3px;
+    /*background-color: rgba(255, 209, 214, 0.34);
+    border-left: 5px solid rgba(255, 125, 110, 0.63);
+    border-bottom: 1px solid #ff746d;*/
+    border-top: 1px solid rgba(255, 255, 255, 0.63);
+    border-right: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+#main {
+    margin-top: 1px;
+    margin-left: 17%;
+    margin-right: 17%;
+    border: 0px solid black;
+    padding: 10px;
+    padding-top: 0px;
+    overflow: auto;
+    display: block;
+    padding-top: 1px;
+    border-right: 5px solid rgba(99, 158, 198, 0.47);
+    border-left: 5px solid rgba(99, 158, 198, 0.47);
+    border-bottom: 1px solid rgba(99, 158, 198, 0.47);
+    background-color: #ffffff;
+}
+
+#footer {
+    border: 0px solid black;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    background-color: rgba(214, 133, 0, 0.19);
+    overflow: auto;
+    border-top: 3px solid rgba(0, 86, 198, 0.47);
+    border-bottom: 1px solid rgba(128, 168, 220, 0.47);
+}
+
+#footer a {
+    margin-right: 30px;
+}

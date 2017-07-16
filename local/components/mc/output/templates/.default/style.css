@@ -1,0 +1,104 @@
+.compout {
+    margin: 0px;
+    border-top: 1px solid #00bdcb;
+    align-content: center;
+    background-color: rgba(253, 250, 209, 0.37);
+    padding-bottom: 5px;
+}
+
+.compout > h1 {
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #f616cc;
+    text-shadow: 2px 2px 2px black;
+}
+
+.compout .image-anons {
+    margin: 5px;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 35px;
+    /*   border: 1px dotted black;*/
+    overflow: auto;
+}
+
+.image-anons img {
+    float:left;
+    margin: 5px;
+    margin-right:10px;
+    border: 10px solid rgba(5, 120, 145, 0.51);
+    padding: 3px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.compout .image-anons p{
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 35px;
+    font-size: 18px;
+}
+
+.compout .product {
+    margin: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgba(0, 228, 215, 0.61);
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.compout .product img {
+    float: right;
+    margin: 5px;
+    margin-left: 10px;
+    max-width: 300px;
+    border: 5px solid rgba(0, 103, 105, 0.46);
+}
+
+.compout .product h2 {
+    color: #0092c2;
+    text-shadow: 2px 1px 1px blue;
+}
+
+.compout .product h3 {
+    color: #00997c;
+    text-shadow: 2px 1px 1px #afda00;
+}
+
+.compout .product p {
+    text-decoration: none;
+    text-align: justify;
+    text-indent: 35px;
+    padding: 5px;
+    padding-left: 10px;
+    color: #1e4853;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.compout p {
+    text-decoration: none;
+    text-align: justify;
+    text-indent: 35px;
+    padding: 5px;
+    color: #1e4853;
+}
+
+.compout a {
+    text-decoration: none;
+}
+
+.compout a:link {
+    color: black;
+}
+
+.compout a:visited {
+    color: black;
+}
+
+.compout a div:hover {
+    background-color: #92fffc;
+}
